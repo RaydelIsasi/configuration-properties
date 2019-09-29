@@ -13,4 +13,4 @@ spring:
     hibernate:
         ddl-Auto: create
 config:
-  name: blabla
+  name: Uchiha Madara
