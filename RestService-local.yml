@@ -2,3 +2,13 @@ spring:
   h2: 
     console: 
       enabled: true
+    
+
+  datasource:
+      url:h2:mem:testdb
+      driverClassName: org.h2.Driver
+      username: sa
+      password: ""
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate.ddl-auto: create
