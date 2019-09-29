@@ -1,16 +1,16 @@
 spring: 
-  h2: 
-    console: 
-      enabled: true
+  h2console: true 
+  
     
 
-  datasource:
+  dataSource:
       url: h2:mem:testdb
       driverClassName: org.h2.Driver
       username: sa
       password: ""
   jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    hibernate.ddl-auto: create
+    database-Platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+        ddl-Auto: create
 config:
   name: testing
