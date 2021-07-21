@@ -1,7 +1,7 @@
 server:
   port: 8081
 api:
-  key: d5f795429cd86c204f4766f74a8a29194
+  key: d5f795429cd86c204f4766f74a8a2919
   baseUrl: https://api.themoviedb.org/3/
 eureka:
   instance:
